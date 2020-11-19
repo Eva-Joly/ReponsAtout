@@ -1,4 +1,3 @@
 # ReponsAtout
-SALUT JE SAIS PAS CE QUE C'EST
-Eva : c'est un truc qui donne des instruction, genre ne pas marquez n'importe quoi
-super interessant
+Merci de ne pas modifier les fichiers sur le git.
+Pour visualisez notre page merci d'aller sur le lien suivant : https://eva-joly.github.io/ReponsAtout/
