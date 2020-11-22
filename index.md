@@ -15,15 +15,26 @@
   transition-duration: 0.4s;
   cursor: pointer;
 }
+
+.button1 {
+  background-color: white; 
+  color: 165A97; 
+  border: 2px solid #165A97;
+}
+
+.button1:hover {
+  background-color: #165A97;
+  color: white;
+}
     
 .button2 {
   background-color: white; 
-  color: black; 
-  border: 2px solid #008CBA;
+  color: #159758; 
+  border: 2px solid #159758;
 }
 
 .button2:hover {
-  background-color: #008CBA;
+  background-color: #159758;
   color: white;
 }
 
@@ -38,9 +49,6 @@ ReponsATout est un projet réalisé par notre équipe. Elle se compose de trois 
 ![Banner](./assets/Images/page_p.png){:align=center width="500" height="300"}
 
 
-<button style="background-color:#1084CD;border-color:white">Nous connaître</button>
 
-test 
-
-<button class="button button2">Blue</button>
-
+<button class="button button1">Nous connaître</button>
+<button class="button button2">Le projet</button>
