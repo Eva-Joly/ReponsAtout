@@ -17,6 +17,6 @@ test
 
 <a href="https://github.com/Eva-Joly/ReponsAtout" id="view-on-github" class="btn btn-info"><span>Nous connaître</span></a>
 
-test 2
+test 3
 
 <a href="{{ site.github.repository_url }}" id="view-on-github" class="button"><span>View on GitHub</span></a> 
