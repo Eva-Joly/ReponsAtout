@@ -19,7 +19,7 @@
 .button1 {
   background-color: white; 
   color: #165A97; 
-  padding: 16px 22px;
+  padding: 16px 19px;
   border: 2px solid #165A97;
 }
 
@@ -53,4 +53,4 @@ ReponsATout est un projet réalisé par notre équipe. Elle se compose de trois 
 
 
 <button class="button button1">Nous connaître</button>
-<button class="button button2">Le projet</button>
+<button class="button button2" onclick="window.location.href = '/assets/Images/';">Le projet</button>
