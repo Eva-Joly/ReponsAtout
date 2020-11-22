@@ -12,4 +12,4 @@ ReponsATout est un projet réalisé par notre équipe. Elle se compose de trois 
 
 
 
-<a href="https://github.com/Eva-Joly/ReponsAtout" class="btn">Nous connaître</a>
+<a href="https://github.com/Eva-Joly/ReponsAtout" class="btn btn-info">Nous connaître</a>
