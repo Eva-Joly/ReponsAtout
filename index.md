@@ -1,5 +1,8 @@
 <head>
-  <link rel="stylesheet" href="bouton.css">
+  <!DOCTYPE html>
+<html>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="assets/bouton.css">
   <title>RéponsAtout</title>
 </head>
 
