@@ -6,6 +6,7 @@
 .button {
   border: none;
   color: white;
+  border-radius: 10px;
   padding: 16px 32px;
   text-align: center;
   text-decoration: none;
@@ -18,7 +19,7 @@
 
 .button1 {
   background-color: white; 
-  color: 165A97; 
+  color: #165A97; 
   border: 2px solid #165A97;
 }
 
