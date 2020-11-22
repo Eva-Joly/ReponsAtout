@@ -6,6 +6,7 @@
   <title>RéponsAtout</title>
 </head>
 
+<body>
 # Bienvenue sur notre site !
 
 ReponsATout est un projet réalisé par notre équipe. Elle se compose de trois ingénieur passionés dans leur travail, vous pouvez trouver sur ce site l'avancé de leurs travaux.
@@ -21,4 +22,5 @@ ReponsATout est un projet réalisé par notre équipe. Elle se compose de trois 
   </svg>
 </a>
 
-test
+ test 1
+</body>
