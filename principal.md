@@ -3,6 +3,7 @@ ReponsATout est un projet réalisé par notre équipe. Elle se compose de trois 
 
 <head>
   <link rel="shortcut icon" href="Images/ITII.png">
+  <title>RéponsAtout</title>
 </head>
 
 
