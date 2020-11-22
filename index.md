@@ -2,6 +2,7 @@
   <meta charset="utf-8" />
   <title>RéponsAtout</title>
   <style>
+    
 .button {
   border: none;
   color: white;
