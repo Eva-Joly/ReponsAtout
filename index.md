@@ -12,4 +12,4 @@ ReponsATout est un projet réalisé par notre équipe. Elle se compose de trois 
 
 test2
 
-<button style="background-color:blue;border-color:black;color=white">Nous connaître</button>
+<button style="background-color:blue;border-color:black;color=red">Nous connaître</button>
