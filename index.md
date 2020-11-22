@@ -7,7 +7,7 @@
   border: none;
   color: white;
   border-radius: 10px;
-  padding: 16px 32px;
+  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
