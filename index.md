@@ -2,8 +2,7 @@
 
 ReponsATout est un projet réalisé par notre équipe. Elle se compose de trois ingénieur passionés dans leur travail, vous pouvez trouver sur ce site l'avancé de leurs travaux.
 
-<div text-align: center>
-  ![Banner](./Images/banner.png){: height="50" width="50"}
-</div>
+![Banner](./Images/banner.png){: height="50" width="50" align = center}
 
-test 5
+
+test 6
