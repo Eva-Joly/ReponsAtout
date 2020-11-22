@@ -1,6 +1,4 @@
 <head>
-  <!DOCTYPE html>
-<html>
   <meta charset="utf-8" />
   <title>RéponsAtout</title>
 </head>
