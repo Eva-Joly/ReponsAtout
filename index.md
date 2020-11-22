@@ -7,7 +7,6 @@
   border: none;
   color: white;
   border-radius: 10px;
-  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -20,6 +19,7 @@
 .button1 {
   background-color: white; 
   color: #165A97; 
+  padding: 16px 32px;
   border: 2px solid #165A97;
 }
 
@@ -30,7 +30,8 @@
     
 .button2 {
   background-color: white; 
-  color: #159758; 
+  color: #159758;
+  padding: 16px 42px;
   border: 2px solid #159758;
 }
 
