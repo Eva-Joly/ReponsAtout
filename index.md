@@ -10,7 +10,6 @@ ReponsATout est un projet réalisé par notre équipe. Elle se compose de trois 
 
 ![Banner](./assets/Images/page_p.png){:align=center width="500" height="300"}
 
-test
-
+test2
 
 <button style="background-color:blue;border-color:black;color=white">Nous connaître</button>
