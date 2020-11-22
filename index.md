@@ -54,4 +54,4 @@ Vous pouvez trouver sur ce site l'avancé de leurs travaux.
 
 
 <button class="button button1">Nous connaître</button>
-<button class="button button2" style="float:right" onclick="window.location.href = 'https://eva-joly.github.io/ReponsAtout/01_nous_connaitre/';">Le projet</button>
+<button class="button button2" style="float:right" onclick="window.location.href = '../01_nous_connaitre/';">Le projet</button>
