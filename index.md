@@ -11,11 +11,11 @@ ReponsATout est un projet réalisé par notre équipe. Elle se compose de trois 
 ![Banner](./assets/Images/page_p.png){:align=center width="500" height="300"}
 
 
-<button type="button" id="view-on-github" class="btn btn-info">Nous connaître</button>
+<button type="button" id="view-on-github" class="btn btn-info"><span>Nous connaître</span></button>
 
 test
 
-<a href="https://github.com/Eva-Joly/ReponsAtout" id="view-on-github" class="btn btn-info">Nous connaître</a>
+<a href="https://github.com/Eva-Joly/ReponsAtout" id="view-on-github" class="btn btn-info"><span>Nous connaître</span></a>
 
 test 2
 
