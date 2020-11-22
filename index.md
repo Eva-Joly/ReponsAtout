@@ -16,3 +16,7 @@ ReponsATout est un projet réalisé par notre équipe. Elle se compose de trois 
 test
 
 <a href="https://github.com/Eva-Joly/ReponsAtout" class="btn btn-info">Nous connaître</a>
+
+test 2
+
+<a href="{{ site.github.repository_url }}" id="view-on-github" class="button"><span>View on GitHub</span></a> 
