@@ -2,7 +2,7 @@
   <!DOCTYPE html>
 <html>
   <meta charset="utf-8" />
-  <link rel="stylesheet" href="assets/bouton.css">
+  <link rel="stylesheet" href="assets/css/bouton.css">
   <title>RéponsAtout</title>
 </head>
 
