@@ -3,7 +3,7 @@
   <title>Nous connaître</title>
   
   .container{
-    border: 5px solid rgb(111,41,97);
+    border: 5px solid black;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -11,9 +11,8 @@
   }
   
   .item {
-  padding: 10px;
-  background-color: rgba(111,41,97,.3);
-  border: 2px solid rgba(111,41,97,.5);
+    padding: 10px;
+    border: 2px solid red;
 }
 </head>
 
