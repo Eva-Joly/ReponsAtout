@@ -3,8 +3,10 @@
   <title>Nous connaître</title>
   
   div{
+    width: 100px;
+    height: 100px;
     margin: 80px;
-    display : inline-block;
+    display: inline-block;
   }
 </head>
 
