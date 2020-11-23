@@ -6,7 +6,8 @@
     width: 100px;
     height: 100px;
     margin: 80px auto;
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
   }
 </head>
 
