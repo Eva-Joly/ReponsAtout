@@ -2,7 +2,7 @@
   <meta charset="utf-8" />
   <title>Nous connaître</title>
   
-  div{
+  .container{
     border: 5px solid rgb(111,41,97);
     padding: 10px;
     display: flex;
@@ -19,7 +19,7 @@ Actuellement en 2ème année d'école d'ingénieur en systèmes embraqués et co
 ## Nos profils
 
 
-<div>
+<div class="container">
   <img src="../Images/Alexis.PNG" width="100" height="185"/>
   <img src="../Images/Eva.PNG" width="100" height="185"/>
   <img src="../Images/Matteo.PNG" width="100" height="185"/>
