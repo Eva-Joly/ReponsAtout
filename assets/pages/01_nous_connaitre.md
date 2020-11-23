@@ -2,18 +2,17 @@
   <meta charset="utf-8" />
   <title>Nous connaître</title>
   
-  .container{
-    border: 5px solid black;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    margin: 1em;
-  }
-  
-  .item {
-    padding: 10px;
-    border: 2px solid red;
-}
+  <style>
+    img{
+      padding: 20px;
+      float: left;
+      margin:0;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+  </style>
+
 </head>
 
 
@@ -25,7 +24,7 @@ Actuellement en 2ème année d'école d'ingénieur en systèmes embraqués et co
 
 
 <div class="container">
-  <div class="item"><img src="../Images/Alexis.PNG" width="100" height="185"/></div>
-  <div class="item"><img src="../Images/Eva.PNG" width="100" height="185"/></div>
-  <div class="item"><img src="../Images/Matteo.PNG" width="100" height="185"/></div>
+  <img src="../Images/Alexis.PNG" width="100" height="185"/>
+  <img src="../Images/Eva.PNG" width="100" height="185"/>
+  <img src="../Images/Matteo.PNG" width="100" height="185"/>
 </div>
