@@ -3,6 +3,8 @@
   <title>Nous connaître</title>
   
   img{
+    width: 50%;
+    height: 50%;
     padding: 10px;
     float: left;
     margin: 0;
