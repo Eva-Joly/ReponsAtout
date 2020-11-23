@@ -3,10 +3,12 @@
   <title>Nous connaître</title>
   
   <style>
-    img{
-      padding: 20px;
-      float: left;
-      margin:0;
+    .container{
+      float:left;
+       margin:0 30px; 
+       padding:0;
+       width: 130px;
+       height: 120px;
     }
   </style>
 
