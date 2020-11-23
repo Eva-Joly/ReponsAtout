@@ -5,10 +5,11 @@
   <style>
     .container{
       float:left;
-       margin:0 30px; 
-       padding:0;
-       width: 130px;
-       height: 120px;
+      margin:0 30px; 
+      padding:0;
+      width: 130px;
+      height: 120px;
+      display: inline; 
     }
   </style>
 
