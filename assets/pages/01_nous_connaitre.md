@@ -3,9 +3,7 @@
   <title>Nous connaître</title>
   
   img{
-    width: 100;
-    height: 100;
-    padding: 10px;
+    padding: 100px;
     float: left;
     margin: 0;
     -webkit-box-sizing: border-box;
@@ -23,7 +21,7 @@ Actuellement en 2ème année d'école d'ingénieur en systèmes embraqués et co
 
 
 <div>
-  <img src="../Images/Alexis.PNG"/>
-  <img src="../Images/Eva.PNG"/>
-  <img src="../Images/Matteo.PNG"/>
+  <img src="../Images/Alexis.PNG" width="50" height="100"/>
+  <img src="../Images/Eva.PNG" width="50" height="100"/>
+  <img src="../Images/Matteo.PNG" width="50" height="100"/>
 </div>
