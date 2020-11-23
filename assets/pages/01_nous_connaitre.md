@@ -3,7 +3,7 @@
   <title>Nous connaître</title>
   
   div{
-    margin: 10px;
+    margin: 80px;
     display : inline-block;
   }
 </head>
