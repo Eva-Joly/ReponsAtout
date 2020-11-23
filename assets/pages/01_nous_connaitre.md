@@ -4,6 +4,7 @@
   
   div{
     float:left;
+    margin: 0 20px 0 20px;
   }
 </head>
 
