@@ -21,7 +21,7 @@ Actuellement en 2ème année d'école d'ingénieur en systèmes embraqués et co
 
 
 <div>
-  <img src="../Images/Alexis.PNG" width="50" height="100"/>
-  <img src="../Images/Eva.PNG" width="50" height="100"/>
-  <img src="../Images/Matteo.PNG" width="50" height="100"/>
+  <img src="../Images/Alexis.PNG" width="80" height="200"/>
+  <img src="../Images/Eva.PNG" width="80" height="200"/>
+  <img src="../Images/Matteo.PNG" width="80" height="200"/>
 </div>
