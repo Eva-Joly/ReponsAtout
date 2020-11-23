@@ -3,8 +3,6 @@
   <title>Nous connaître</title>
   
   div{
-    width: 100px;
-    height: 100px;
     margin: 80px auto;
     display: flex;
     justify-content: space-between;
