@@ -9,6 +9,12 @@
     justify-content: space-between;
     margin: 1em;
   }
+  
+  .item {
+  padding: 10px;
+  background-color: rgba(111,41,97,.3);
+  border: 2px solid rgba(111,41,97,.5);
+}
 </head>
 
 
@@ -20,7 +26,7 @@ Actuellement en 2ème année d'école d'ingénieur en systèmes embraqués et co
 
 
 <div class="container">
-  <img src="../Images/Alexis.PNG" width="100" height="185"/>
-  <img src="../Images/Eva.PNG" width="100" height="185"/>
-  <img src="../Images/Matteo.PNG" width="100" height="185"/>
+  <div class="item"><img src="../Images/Alexis.PNG" width="100" height="185"/></div>
+  <div class="item"><img src="../Images/Eva.PNG" width="100" height="185"/></div>
+  <div class="item"><img src="../Images/Matteo.PNG" width="100" height="185"/></div>
 </div>
