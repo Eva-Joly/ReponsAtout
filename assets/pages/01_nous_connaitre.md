@@ -8,7 +8,7 @@
     margin: 0;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    box-sizing: border-box
+    box-sizing: border-box;
   }
 </head>
 
