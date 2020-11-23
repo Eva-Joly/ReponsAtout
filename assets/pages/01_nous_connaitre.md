@@ -3,7 +3,7 @@
   <title>Nous connaître</title>
   
   img{
-    padding: 100px;
+    padding: 500px;
     float: left;
     margin: 0;
     -webkit-box-sizing: border-box;
