@@ -5,7 +5,7 @@
   div{
     width: 100px;
     height: 100px;
-    margin: 80px;
+    margin: 80px auto;
     display: inline-block;
   }
 </head>
