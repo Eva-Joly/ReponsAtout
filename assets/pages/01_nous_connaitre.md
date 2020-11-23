@@ -3,6 +3,7 @@
   <title>Nous connaître</title>
   
   div{
+    border: 5px solid rgb(111,41,97);
     padding: 10px;
     display: flex;
     justify-content: space-between;
