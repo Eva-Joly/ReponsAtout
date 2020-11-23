@@ -3,9 +3,9 @@
   <title>Nous connaître</title>
   
   img{
-    padding: 10px;
+    padding: 40px;
     float: left;
-    margin: 20px;
+    margin: 0;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box
