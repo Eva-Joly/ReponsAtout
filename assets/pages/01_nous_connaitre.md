@@ -3,9 +3,10 @@
   <title>Nous connaître</title>
   
   div{
-    margin: 80px auto;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
+    margin: 1em;
   }
 </head>
 
