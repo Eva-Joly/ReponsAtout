@@ -28,7 +28,7 @@
     .button2 {
       background-color: white; 
       color: #159758;
-      padding: 16px 42px;
+      padding: 16px 19px;
       border: 2px solid #159758;
     }
     .button2:hover {
