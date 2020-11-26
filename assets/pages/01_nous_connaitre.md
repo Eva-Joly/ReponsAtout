@@ -63,3 +63,8 @@ Actuellement en 2ème année d'école d'ingénieur en systèmes embraqués et co
   <div class="item"><img src="../Images/Eva.PNG" width="100" height="185"/></div>
   <div class="item"><img src="../Images/Matteo.PNG" width="100" height="185"/></div>
 </div>
+
+
+
+<button class="button button1" onclick="window.location.href = 'https://eva-joly.github.io/ReponsAtout/';">Home</button>
+<button class="button button2" style="float:right" >Le projet</button>
