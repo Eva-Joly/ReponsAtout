@@ -7,10 +7,12 @@
       width: auto;
       padding: 10px;
       display: flex;
+      text-align: center;
       justify-content: space-between;
       margin: 1em;
     }
     .item {
+      text-align: center;
       padding: 10px;
     }
     .button {
