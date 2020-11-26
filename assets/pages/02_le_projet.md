@@ -3,18 +3,6 @@
   <title>Nous connaître</title>
   
   <style>
-    .container {
-      width: auto;
-      padding: 10px;
-      display: flex;
-      text-align: center;
-      justify-content: space-between;
-      margin: 1em;
-    }
-    .item {
-      text-align: center;
-      padding: 10px;
-    }
     .button {
       border: none;
       color: white;
@@ -52,20 +40,11 @@
 </head>
 
 
-## Qui sommes nous ?
+## RéponsAtout qu'est-ce que c'est ?
 Actuellement en 2ème année d'école d'ingénieur en systèmes embraqués et communicants, à **l'ISEN de Toulon** et en apprentissage avec **l'ITII**. Nous avons réalisé le projet RéponsAtout afin de mettre en pratique les cours de système d'exploitation. 
 
-
-## Nos profils
-
-
-<div class="container" style="float:center">
-  <div class="item"><img src="../Images/Matteo.PNG" width="100" height="185"/><p></p>Matteo est le chef du projet, il communique avec nos cliets afin de comprendre leurs besoins</div>
-  <div class="item"><img src="../Images/Eva.PNG" width="100" height="185"/><p></p>Eva est notre commerciale, elle gère le site internet ainsi que la vente du produit</div>
-  <div class="item"><img src="../Images/Alexis.PNG" width="100" height="185"/><p></p>Alexis gère le programme et le design de notre produit, il réalise vos demandes les plus folles</div>                            
-</div>
 
 
 
 <button class="button button1" onclick="window.location.href = 'https://eva-joly.github.io/ReponsAtout/';">Home</button>
-<button class="button button2" style="float:right" >Le projet</button>
+<button class="button button2" style="float:right" onclick="window.location.href = 'https://eva-joly.github.io/ReponsAtout/assets/pages/01_nous_connaitre';">Nous connaitres</button>
