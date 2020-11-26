@@ -23,13 +23,13 @@
       display: inline-block;
       font-size: 16px;
       margin: 4px 2px;
-      transition-duration: 0.4s;
+      transition-duration: 1s;
       cursor: pointer;
     }
     .button1 {
       background-color: white; 
       color: #165A97; 
-      padding: 16px 19px;
+      padding: 16px 39px;
       border: 2px solid #165A97;
     }
     .button1:hover {
@@ -39,7 +39,7 @@
     .button2 {
       background-color: white; 
       color: #159758;
-      padding: 16px 42px;
+      padding: 16px 30px;
       border: 2px solid #159758;
     }
     .button2:hover {
