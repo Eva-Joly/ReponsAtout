@@ -59,11 +59,11 @@ Actuellement en 2ème année d'école d'ingénieur en systèmes embraqués et co
 
 <div class="container" style="float:center">
   <div class="item"><img src="../Images/Alexis.PNG" width="100" height="185"/>Alexis sqqqsxqs</div>
-                  dscsdc
+                                        
   <div class="item"><img src="../Images/Eva.PNG" width="100" height="185"/>Eva scsc</div>
-                       ddddd
+                                              
   <div class="item"><img src="../Images/Matteo.PNG" width="100" height="185"/>Matteo sdcc</div>
-                    ddd
+                                                    
 </div>
 
 
