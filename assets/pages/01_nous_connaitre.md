@@ -7,6 +7,7 @@
       width: 500px;
       padding: 10px;
       display: flex;
+      align-items: center;
       justify-content: space-between;
       margin: 1em;
     }
