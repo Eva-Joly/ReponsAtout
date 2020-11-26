@@ -10,12 +10,42 @@
       justify-content: space-between;
       margin: 1em;
     }
-  
     .item {
       text-align: center;
       padding: 10px;
     }
-    
+    .button {
+      border: none;
+      color: white;
+      border-radius: 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+    }
+    .button1 {
+      background-color: white; 
+      color: #165A97; 
+      padding: 16px 19px;
+      border: 2px solid #165A97;
+    }
+    .button1:hover {
+      background-color: #165A97;
+      color: white;
+    }
+    .button2 {
+      background-color: white; 
+      color: #159758;
+      padding: 16px 42px;
+      border: 2px solid #159758;
+    }
+    .button2:hover {
+      background-color: #159758;
+      color: white;
+    }
   </style>
 
 </head>
