@@ -12,7 +12,7 @@
       display: inline-block;
       font-size: 16px;
       margin: 4px 2px;
-      transition-duration: 0.4s;
+      transition-duration: 1s;
       cursor: pointer;
     }
     .button1 {
