@@ -12,6 +12,7 @@
     }
   
     .item {
+      text-align: center;
       padding: 10px;
     }
     
