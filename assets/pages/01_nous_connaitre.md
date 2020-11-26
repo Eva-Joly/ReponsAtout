@@ -12,8 +12,6 @@
     }
   
     .item {
-      width: 100px;
-      height: 100px;
       padding: 10px;
     }
     
