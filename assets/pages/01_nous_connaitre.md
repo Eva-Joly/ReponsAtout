@@ -68,4 +68,4 @@ Actuellement en 2ème année d'école d'ingénieur en systèmes embraqués et co
 
 
 <button class="button button1" onclick="window.location.href = 'https://eva-joly.github.io/ReponsAtout/';">Home</button>
-<button class="button button2" style="float:right" >Le projet</button>
+<button class="button button2" style="float:right" onclick="window.location.href = 'https://eva-joly.github.io/ReponsAtout/assets/pages/02_le_projet';">Le projet</button>
