@@ -28,7 +28,7 @@
     .button2 {
       background-color: white; 
       color: #159758;
-      padding: 16px 30px;
+      padding: 16px 42px;
       border: 2px solid #159758;
     }
     .button2:hover {
@@ -43,8 +43,7 @@
 ## RéponsAtout qu'est-ce que c'est ?
 Actuellement en 2ème année d'école d'ingénieur en systèmes embraqués et communicants, à **l'ISEN de Toulon** et en apprentissage avec **l'ITII**. Nous avons réalisé le projet RéponsAtout afin de mettre en pratique les cours de système d'exploitation. 
 
-
-
+## Les moments forts
 
 <button class="button button1" onclick="window.location.href = 'https://eva-joly.github.io/ReponsAtout/';">Home</button>
 <button class="button button2" style="float:right" onclick="window.location.href = 'https://eva-joly.github.io/ReponsAtout/assets/pages/01_nous_connaitre';">Nous connaitres</button>
