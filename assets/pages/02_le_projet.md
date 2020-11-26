@@ -18,7 +18,7 @@
     .button1 {
       background-color: white; 
       color: #165A97; 
-      padding: 16px 52px;
+      padding: 16px 50px;
       border: 2px solid #165A97;
     }
     .button1:hover {
