@@ -4,7 +4,7 @@
   
   <style>
     .container {
-      width: 500px;
+      width: auto;
       padding: 10px;
       display: flex;
       justify-content: space-between;
@@ -28,8 +28,8 @@ Actuellement en 2ème année d'école d'ingénieur en systèmes embraqués et co
 ## Nos profils
 
 
-<div class="container">
-  <div class="item"><img src="../Images/Alexis.PNG" width="100" height="185"/>Alexis</div>
-  <div class="item"><img src="../Images/Eva.PNG" width="100" height="185"/>Eva</div>
-  <div class="item"><img src="../Images/Matteo.PNG" width="100" height="185"/>Matteo</div>
+<div class="container" style="float:center">
+  <div class="item"><img src="../Images/Alexis.PNG" width="100" height="185"/></div>
+  <div class="item"><img src="../Images/Eva.PNG" width="100" height="185"/></div>
+  <div class="item"><img src="../Images/Matteo.PNG" width="100" height="185"/></div>
 </div>
