@@ -48,4 +48,4 @@ Vous pouvez trouver sur ce site l'avancé de leurs travaux.
 <div style="text-align:center"><img src="./assets/Images/page_p.png" width="500" height="300"/></div>
 
 <button class="button button1" onclick="window.location.href = 'https://eva-joly.github.io/ReponsAtout/assets/pages/01_nous_connaitre';">Nous connaître</button>
-<button class="button button2" style="float:right" >Le projet</button>
+<button class="button button2" style="float:right" onclick="window.location.href = 'https://eva-joly.github.io/ReponsAtout/assets/pages/02_le_projet';">Le projet</button>
