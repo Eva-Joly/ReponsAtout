@@ -7,12 +7,10 @@
       width: auto;
       padding: 10px;
       display: flex;
-      text-align: center;
       justify-content: space-between;
       margin: 1em;
     }
     .item {
-      text-align: center;
       padding: 10px;
     }
     .button {
@@ -60,9 +58,9 @@ Actuellement en 2ème année d'école d'ingénieur en systèmes embraqués et co
 
 
 <div class="container" style="float:center">
-  <div class="item"><img src="../Images/Alexis.PNG" width="100" height="185"/> Alexis adda</div>
-  <div class="item"><img src="../Images/Eva.PNG" width="100" height="185"/>Eva scsc</div>
-  <div class="item"><img src="../Images/Matteo.PNG" width="100" height="185"/>Matteo sdcc</div>
+  <div class="item" style="float:center"><img src="../Images/Alexis.PNG" width="100" height="185"/> Alexis adda</div>
+  <div class="item" style="float:center"><img src="../Images/Eva.PNG" width="100" height="185"/>Eva scsc</div>
+  <div class="item" style="float:center"><img src="../Images/Matteo.PNG" width="100" height="185"/>Matteo sdcc</div>
 </div>
 
 
