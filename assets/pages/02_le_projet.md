@@ -46,7 +46,9 @@
 
 ### Le produit
 >De nos jours, le technologie est omniprésente. On la retrouve de partout sous différentes formes, notamment chez nous, cela va de notre ordianteur, téléphone à des technologies bien plus poussées.
+>
 >C'est le cas de RéponsAtout, c'est un serveur vous permettant de répondre à vos questions. Mais qu'a t'il de mieux que les autres ? 
+>
 >C'est tout simple, il agit dès que vous lui demandiez, vous n'avez pas besoin de relancer le serveur à chaque fois que vous en avez besoin. De plus, tout le monde peut l'utiliser, beaucoup de serveurs fonctionnent oralement sans penser aux personnes malentendantes, RéponsAtout s'utilise grâce à une interface.
 
 ## Les moments forts
