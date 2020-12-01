@@ -81,9 +81,9 @@
       width: 0;
       z-index: 1;
       right: 30px;
-      border: medium solid #EEF3F7;
+      border: medium solid #DCE6F0;
       border-width: 10px 0 10px 10px;
-      border-color: transparent transparent transparent #EEF3F7;
+      border-color: transparent transparent transparent #DCE6F0;
     }
     .right::before {
       content: " ";
@@ -93,9 +93,9 @@
       width: 0;
       z-index: 1;
       left: 30px;
-      border: medium solid #EEF3F7;
+      border: medium solid #DCE6F0;
       border-width: 10px 10px 10px 0;
-      border-color: transparent #EEF3F7 transparent transparent;
+      border-color: transparent #DCE6F0 transparent transparent;
     }
     .right::after {
       left: -16px;
