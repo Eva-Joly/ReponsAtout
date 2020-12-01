@@ -1,6 +1,5 @@
 <head>
   <meta charset="utf-8" />
-  <title>Nous connaître</title>
   
   <style>
     .button {
@@ -39,6 +38,9 @@
 
 </head>
 
+---
+title: Le projet
+---
 
 ## RéponsAtout, qu'est-ce donc ?
 
