@@ -102,7 +102,7 @@
     }
     .content {
       padding: 20px 30px;
-      background-color: #EEF3F7;
+      background-color: #DCE6F0;
       position: relative;
       border-radius: 6px;
     }
