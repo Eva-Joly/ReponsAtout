@@ -93,9 +93,18 @@
       width: 0;
       z-index: 1;
       left: 30px;
-      border: medium solid white;
+      border: medium solid #DBE1E5;
       border-width: 10px 10px 10px 0;
-      border-color: transparent white transparent transparent;
+      border-color: transparent #DBE1E5 transparent transparent;
+    }
+    .right::after {
+      left: -16px;
+    }
+    .content {
+      padding: 20px 30px;
+      background-color: #DBE1E5;
+      position: relative;
+      border-radius: 6px;
     }
   </style>
 
