@@ -81,9 +81,9 @@
       width: 0;
       z-index: 1;
       right: 30px;
-      border: medium solid #DCE6F0;
+      border: medium solid #E8EEF4;
       border-width: 10px 0 10px 10px;
-      border-color: transparent transparent transparent #DCE6F0;
+      border-color: transparent transparent transparent #E8EEF4;
     }
     .right::before {
       content: " ";
@@ -93,16 +93,16 @@
       width: 0;
       z-index: 1;
       left: 30px;
-      border: medium solid #DCE6F0;
+      border: medium solid #E8EEF4;
       border-width: 10px 10px 10px 0;
-      border-color: transparent #DCE6F0 transparent transparent;
+      border-color: transparent #E8EEF4 transparent transparent;
     }
     .right::after {
       left: -16px;
     }
     .content {
       padding: 20px 30px;
-      background-color: #DCE6F0;
+      background-color: #E8EEF4;
       position: relative;
       border-radius: 6px;
     }
