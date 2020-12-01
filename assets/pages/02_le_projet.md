@@ -81,9 +81,9 @@
       width: 0;
       z-index: 1;
       right: 30px;
-      border: medium solid white;
+      border: medium solid #EEF3F7;
       border-width: 10px 0 10px 10px;
-      border-color: transparent transparent transparent white;
+      border-color: transparent transparent transparent #EEF3F7;
     }
     .right::before {
       content: " ";
@@ -93,16 +93,16 @@
       width: 0;
       z-index: 1;
       left: 30px;
-      border: medium solid #DBE1E5;
+      border: medium solid #EEF3F7;
       border-width: 10px 10px 10px 0;
-      border-color: transparent #DBE1E5 transparent transparent;
+      border-color: transparent #EEF3F7 transparent transparent;
     }
     .right::after {
       left: -16px;
     }
     .content {
       padding: 20px 30px;
-      background-color: #DBE1E5;
+      background-color: #EEF3F7;
       position: relative;
       border-radius: 6px;
     }
