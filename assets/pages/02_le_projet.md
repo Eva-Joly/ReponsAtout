@@ -34,6 +34,22 @@
       background-color: #159758;
       color: white;
     }
+    .timeline {
+      position: relative;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    /* The actual timeline (the vertical ruler) */
+    .timeline::after {
+      content: '';
+      position: absolute;
+      width: 6px;
+      background-color: #159758;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      margin-left: -3px;
+    }
   </style>
 
 </head>
@@ -52,6 +68,25 @@
 >C'est tout simple, il agit dès que vous lui demandiez, vous n'avez pas besoin de relancer le serveur à chaque fois que vous en avez besoin. De plus, tout le monde peut l'utiliser, beaucoup de serveurs fonctionnent oralement sans penser aux personnes malentendantes, RéponsAtout s'utilise grâce à une interface.
 
 ## Les moments forts
+
+<div class="timeline">
+  <div class="container left">
+    <div class="content">
+      <h2>2017</h2>
+      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>2016</h2>
+      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+    </div>
+  </div>
+</div>
+
+
+
+
 
 <button class="button button1" onclick="window.location.href = 'https://eva-joly.github.io/ReponsAtout/';">Home</button>
 <button class="button button2" style="float:right" onclick="window.location.href = 'https://eva-joly.github.io/ReponsAtout/assets/pages/01_nous_connaitre';">Nous connaitres</button>
