@@ -44,6 +44,8 @@
 ### Le contexte
 >Actuellement en 2ème année d'école d'ingénieur en systèmes embraqués et communicants, à **l'ISEN de Toulon** et en apprentissage avec **l'ITII**. Nous avons réalisé le projet RéponsAtout afin de mettre en pratique les cours de système d'exploitation. 
 
+### Le produit
+>De nos jours, le technologie est omise présente. On la retrouve de partout sous différentes formes, notamment chez nous, cela va de notre ordianteur, téléphone à des technologie bien plus poussée comme des assistants domestiques.
 ## Les moments forts
 
 <button class="button button1" onclick="window.location.href = 'https://eva-joly.github.io/ReponsAtout/';">Home</button>
