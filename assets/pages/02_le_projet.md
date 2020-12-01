@@ -61,7 +61,7 @@
         width: 25px;
         height: 25px;
         right: -17px;
-        background-color: #165A97;
+        background-color: white;
         border: 4px solid #159758;
         top: 15px;
         border-radius: 50%;
@@ -101,7 +101,7 @@
   </div>
   <div class="container right">
     <div class="content">
-      <h2>2 Décembre 2020</h2>
+      <h3>2 Décembre 2020</h3>
       <p>Daily mainting avec le client, première étape du projet réalisé</p>
     </div>
   </div>
