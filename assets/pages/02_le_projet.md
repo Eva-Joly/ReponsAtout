@@ -39,16 +39,39 @@
       max-width: 1200px;
       margin: 0 auto;
     }
-    /* The actual timeline (the vertical ruler) */
     .timeline::after {
       content: '';
       position: absolute;
       width: 6px;
-      background-color: #159758;
+      background-color: #165A97;
       top: 0;
       bottom: 0;
       left: 50%;
       margin-left: -3px;
+    }
+    .container {
+      padding: 10px 40px;
+      position: relative;
+      background-color: inherit;
+      width: 50%;
+    }
+    .container::after {
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        right: -17px;
+        background-color: #165A97;
+        border: 4px solid #159758;
+        top: 15px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+    .left {
+      left: 0;
+    }
+    .right {
+      left: 50%;
     }
   </style>
 
@@ -72,14 +95,14 @@
 <div class="timeline">
   <div class="container left">
     <div class="content">
-      <h2>2017</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+      <h3>19 Novembre 2020</h3>
+      <p>Premier rendez-vous avec le client afin de déterminer ses besoins. Définiton des rôles de chaque membres du groupe et début des recherches</p>
     </div>
   </div>
   <div class="container right">
     <div class="content">
-      <h2>2016</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+      <h2>2 Décembre 2020</h2>
+      <p>Daily mainting avec le client, première étape du projet réalisé</p>
     </div>
   </div>
 </div>
