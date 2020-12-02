@@ -145,7 +145,7 @@
 
 ## Téléchargements
 
-Vous pouvez télécharger notre programme en cliquant sur <a href="../code.zip" download>ce lien</a>
+Vous pouvez télécharger notre programme en cliquant sur <a href="https://github.com/Eva-Joly/ReponsAtout/blob/gh-pages/assets/code.zip" download>ce lien</a>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
