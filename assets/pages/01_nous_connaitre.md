@@ -53,11 +53,15 @@
 
 
 ## Qui sommes nous ?
+
+* * *
+
 Actuellement en 2ème année d'école d'ingénieur en systèmes embraqués et communicants, à **l'ISEN de Toulon** et en apprentissage avec **l'ITII**. Nous avons réalisé le projet RéponsAtout afin de mettre en pratique les cours de système d'exploitation. 
 
 
 ## Nos profils
 
+* * *
 
 <div class="container" style="float:center">
   <div class="item"><img src="../Images/Matteo.PNG" width="100" height="185"/><p></p>Matteo est le chef du projet, il communique avec nos cliets afin de comprendre leurs besoins</div>
