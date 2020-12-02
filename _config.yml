@@ -1,7 +1,7 @@
 theme: jekyll-theme-cayman
 title: RéponsAtout
 
-avatar: "/assets/Images/ITII.png"
+avatar: https://github.com/Eva-Joly/ReponsAtout/blob/gh-pages/assets/Images/ITII.png
 
 show_downloads: true
 
