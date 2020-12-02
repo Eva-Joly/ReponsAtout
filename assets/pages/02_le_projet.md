@@ -145,7 +145,7 @@
 
 ## Téléchargements
 
-Vous pouvez télécharger notre programme en cliquant sur <a href="https://github.com/Eva-Joly/ReponsAtout/blob/gh-pages/assets/code.zip" download>ce lien</a>
+Vous pouvez télécharger notre programme en téléchargent ses deux fichiers : <a href="../code/pere.c" download>1er fichier</a> et <a href="../code/fils.c" download>2ème fichier</a>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
