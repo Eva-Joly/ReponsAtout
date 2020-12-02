@@ -10,14 +10,12 @@
       text-decoration: none;
       display: inline-block;
       font-size: 16px;
-      margin: 50px 2px;
       transition-duration: 1s;
       cursor: pointer;
     }
     .button1 {
       background-color: white; 
       color: #165A97;
-      margin-top:50px;
       padding: 16px 49px;
       border: 2px solid #165A97;
     }
@@ -28,7 +26,6 @@
     .button2 {
       background-color: white; 
       color: #159758;
-      margin-top:50px;
       padding: 16px 12px;
       border: 2px solid #159758;
     }
@@ -146,10 +143,11 @@
 
 ## Téléchargements
 
-Vous pouvez télécharger notre programme en cliquant sur [ce lien](../code/pere.c) 
+Vous pouvez télécharger notre programme en cliquant sur <a href="../code/pere.c" download>ce lien</a>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
 
-
-
-
-<button class="button button1" style="float:left" onclick="window.location.href = 'https://eva-joly.github.io/ReponsAtout/';">Home</button>
+<button class="button button1" onclick="window.location.href = 'https://eva-joly.github.io/ReponsAtout/';">Home</button>
 <button class="button button2" style="float:right" onclick="window.location.href = 'https://eva-joly.github.io/ReponsAtout/assets/pages/01_nous_connaitre';">Nous connaitres</button>
