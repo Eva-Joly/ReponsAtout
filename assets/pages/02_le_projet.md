@@ -112,18 +112,29 @@
 
 
 ## RéponsAtout, qu'est-ce donc ?
-<dl>
-<dd>### Le contexte
+
+### Le contexte
 >Actuellement en 2ème année d'école d'ingénieur en systèmes embraqués et communicants, à **l'ISEN de Toulon** et en apprentissage avec **l'ITII**. Nous avons réalisé le projet RéponsAtout afin de mettre en pratique les cours de système d'exploitation. 
 
 ### Le produit
-<dd>>De nos jours, le technologie est omniprésente. On la retrouve de partout sous différentes formes, notamment chez nous, cela va de notre ordianteur, téléphone à des technologies bien plus poussées.</dd>
+>De nos jours, le technologie est omniprésente. On la retrouve de partout sous différentes formes, notamment chez nous, cela va de notre ordianteur, téléphone à des technologies bien plus poussées.
 >
-><dd>C'est le cas de RéponsAtout, c'est un serveur vous permettant de répondre à vos questions. Mais qu'a t'il de mieux que les autres ?</dd>
+>C'est le cas de RéponsAtout, c'est un serveur vous permettant de répondre à vos questions. Mais qu'a t'il de mieux que les autres ?
 >
-><dd>C'est tout simple, il agit dès que vous lui demandiez, vous n'avez pas besoin de relancer le serveur à chaque fois que vous en avez besoin. De plus, tout le monde peut l'utiliser, beaucoup de serveurs fonctionnent oralement sans penser aux personnes malentendantes, RéponsAtout s'utilise grâce à une interface.</dd>
-</dd>
+>C'est tout simple, il agit dès que vous lui demandiez, vous n'avez pas besoin de relancer le serveur à chaque fois que vous en avez besoin. De plus, tout le monde peut l'utiliser, beaucoup de serveurs fonctionnent oralement sans penser aux personnes malentendantes, RéponsAtout s'utilise grâce à une interface.
+
+<dl>
+<dt>Name</dt>
+<dd>Godzilla</dd>
+<dt>Born</dt>
+<dd>1952</dd>
+<dt>Birthplace</dt>
+<dd>Japan</dd>
+<dt>Color</dt>
+<dd>Green</dd>
 </dl>
+
+
 ## Les moments forts
 
 <div class="timeline">
