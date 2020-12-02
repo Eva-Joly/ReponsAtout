@@ -144,7 +144,7 @@
 
 ## Téléchargements
 
-Vous pouvez télécharger notre programme en cliquant sur ce lien
+Vous pouvez télécharger notre programme en cliquant sur <a href="../code/pere.c">ce lien</a>
 
 
 
