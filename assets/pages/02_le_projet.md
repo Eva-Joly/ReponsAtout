@@ -10,13 +10,12 @@
       text-decoration: none;
       display: inline-block;
       font-size: 16px;
-      margin: 4px 2px;
       transition-duration: 1s;
       cursor: pointer;
     }
     .button1 {
       background-color: white; 
-      color: #165A97; 
+      color: #165A97;
       padding: 16px 49px;
       border: 2px solid #165A97;
     }
@@ -119,9 +118,11 @@
 ### Le produit
 >De nos jours, le technologie est omniprésente. On la retrouve de partout sous différentes formes, notamment chez nous, cela va de notre ordianteur, téléphone à des technologies bien plus poussées.
 >
->C'est le cas de RéponsAtout, c'est un serveur vous permettant de répondre à vos questions. Mais qu'a t'il de mieux que les autres ? 
+>C'est le cas de RéponsAtout, c'est un serveur vous permettant de répondre à vos questions. Mais qu'a t'il de mieux que les autres ?
 >
 >C'est tout simple, il agit dès que vous lui demandiez, vous n'avez pas besoin de relancer le serveur à chaque fois que vous en avez besoin. De plus, tout le monde peut l'utiliser, beaucoup de serveurs fonctionnent oralement sans penser aux personnes malentendantes, RéponsAtout s'utilise grâce à une interface.
+
+<p>&nbsp;</p>
 
 ## Les moments forts
 
@@ -140,9 +141,13 @@
   </div>
 </div>
 
+<p>&nbsp;</p>
 
+## Téléchargements
 
-
+Vous pouvez télécharger notre programme en cliquant sur <a href="../code.zip" download>ce lien</a>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 <button class="button button1" onclick="window.location.href = 'https://eva-joly.github.io/ReponsAtout/';">Home</button>
 <button class="button button2" style="float:right" onclick="window.location.href = 'https://eva-joly.github.io/ReponsAtout/assets/pages/01_nous_connaitre';">Nous connaitres</button>
