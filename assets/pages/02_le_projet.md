@@ -112,6 +112,8 @@
 
 ## RéponsAtout, qu'est-ce donc ?
 
+* * *
+
 ### Le contexte
 >Actuellement en 2ème année d'école d'ingénieur en systèmes embraqués et communicants, à **l'ISEN de Toulon** et en apprentissage avec **l'ITII**. Nous avons réalisé le projet RéponsAtout afin de mettre en pratique les cours de système d'exploitation. 
 
@@ -125,6 +127,8 @@
 <p>&nbsp;</p>
 
 ## Les moments forts
+
+* * *
 
 <div class="timeline">
   <div class="container left">
@@ -144,6 +148,8 @@
 <p>&nbsp;</p>
 
 ## Documents téléchargables
+
+* * *
 
 *   Vous pouvez télécharger notre programme en téléchargent ses deux fichiers : <a href="../code/pere.c" download>1er fichier</a> et <a href="../code/fils.c" download>2ème fichier</a>
 <p>&nbsp;</p>
