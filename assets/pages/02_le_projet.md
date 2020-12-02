@@ -144,10 +144,10 @@
 ## Téléchargements
 
 Vous pouvez télécharger notre programme en cliquant sur <a href="../code/pere.c" download>ce lien</a>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 <button class="button button1" onclick="window.location.href = 'https://eva-joly.github.io/ReponsAtout/';">Home</button>
 <button class="button button2" style="float:right" onclick="window.location.href = 'https://eva-joly.github.io/ReponsAtout/assets/pages/01_nous_connaitre';">Nous connaitres</button>
