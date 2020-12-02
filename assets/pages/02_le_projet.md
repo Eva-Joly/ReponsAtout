@@ -112,7 +112,6 @@
 
 ## RéponsAtout, qu'est-ce donc ?
 
-
 ### Le contexte
 >Actuellement en 2ème année d'école d'ingénieur en systèmes embraqués et communicants, à **l'ISEN de Toulon** et en apprentissage avec **l'ITII**. Nous avons réalisé le projet RéponsAtout afin de mettre en pratique les cours de système d'exploitation. 
 
@@ -122,6 +121,8 @@
 >C'est le cas de RéponsAtout, c'est un serveur vous permettant de répondre à vos questions. Mais qu'a t'il de mieux que les autres ?
 >
 >C'est tout simple, il agit dès que vous lui demandiez, vous n'avez pas besoin de relancer le serveur à chaque fois que vous en avez besoin. De plus, tout le monde peut l'utiliser, beaucoup de serveurs fonctionnent oralement sans penser aux personnes malentendantes, RéponsAtout s'utilise grâce à une interface.
+
+<p>&nbsp;</p>
 
 ## Les moments forts
 
@@ -140,12 +141,11 @@
   </div>
 </div>
 
+<p>&nbsp;</p>
 
 ## Téléchargements
 
 Vous pouvez télécharger notre programme en cliquant sur <a href="../code/pere.c" download>ce lien</a>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
