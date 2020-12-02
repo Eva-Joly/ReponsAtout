@@ -10,7 +10,7 @@
       text-decoration: none;
       display: inline-block;
       font-size: 16px;
-      margin: 10px 2px;
+      margin: 50px 2px;
       transition-duration: 1s;
       cursor: pointer;
     }
