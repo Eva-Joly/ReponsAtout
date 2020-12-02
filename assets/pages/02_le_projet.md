@@ -134,13 +134,14 @@
   <div class="container left">
     <div class="content">
       <h3>19 Novembre 2020</h3>
-      <p>Premier rendez-vous avec le client afin de déterminer ses besoins. Définiton des rôles de chaque membres du groupe et début des recherches</p>
+      <p>Premier rendez-vous avec le client afin de déterminer ses besoins. Définiton des rôles de chaque membres du groupe et début des recherches.</p>
     </div>
   </div>
   <div class="container right">
     <div class="content">
       <h3>2 Décembre 2020</h3>
-      <p>Daily mainting avec le client, première étape du projet réalisé</p>
+      <p>Daily meeting avec le client qui est sastifait de notre avancement. Le client peut poser plusieurs questions précisent au serveur et obtenir des réponses.</p>
+      <p>La proposition de rajouter une question dynamique (réponse en temps réel), a été accepté mais on ne réalise pas de multiprocesseurs.</p>
     </div>
   </div>
 </div>
