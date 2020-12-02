@@ -42,7 +42,7 @@
 
 # Bienvenue sur notre site !
 
-ReponsATout est un projet réalisé par notre équipe dans le cas de nos études. Elle se compose de trois ingénieurs passionés dans leur travail.
+RéponsATout est un projet réalisé par notre équipe dans le cas de nos études. Elle se compose de trois ingénieurs passionés dans leur travail.
 Vous pouvez trouver sur ce site l'avancé de leurs travaux.
 
 <div style="text-align:center"><img src="./assets/Images/page_p.png" width="500" height="300"/></div>
