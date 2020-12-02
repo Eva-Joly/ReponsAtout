@@ -1,5 +1,5 @@
 theme: jekyll-theme-cayman
 title: RéponsAtout
-avatar: "./assets/Images/ITII.png"
+avatar: "/assets/Images/ITII.png"
 round-avatar: true
-
+show_downloads: true
