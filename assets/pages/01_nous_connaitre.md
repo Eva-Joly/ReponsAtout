@@ -58,6 +58,7 @@
 
 Actuellement en 2ème année d'école d'ingénieur en systèmes embraqués et communicants, à **l'ISEN de Toulon** et en apprentissage avec **l'ITII**. Nous avons réalisé le projet RéponsAtout afin de mettre en pratique les cours de système d'exploitation. 
 
+<p>&nbsp;</p>
 
 ## Nos profils
 
@@ -69,7 +70,8 @@ Actuellement en 2ème année d'école d'ingénieur en systèmes embraqués et co
   <div class="item"><img src="../Images/Alexis.PNG" width="100" height="185"/><p></p>Alexis gère le programme et le design de notre produit, il réalise vos demandes les plus folles</div>                            
 </div>
 
-
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 <button class="button button1" onclick="window.location.href = 'https://eva-joly.github.io/ReponsAtout/';">Home</button>
 <button class="button button2" style="float:right" onclick="window.location.href = 'https://eva-joly.github.io/ReponsAtout/assets/pages/02_le_projet';">Le projet</button>
