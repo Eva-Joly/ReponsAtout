@@ -16,7 +16,8 @@
     }
     .button1 {
       background-color: white; 
-      color: #165A97; 
+      color: #165A97;
+      margin-top:5px;
       padding: 16px 49px;
       border: 2px solid #165A97;
     }
@@ -27,6 +28,7 @@
     .button2 {
       background-color: white; 
       color: #159758;
+      margin-top:5px;
       padding: 16px 12px;
       border: 2px solid #159758;
     }
