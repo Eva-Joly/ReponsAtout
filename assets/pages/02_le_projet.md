@@ -148,7 +148,7 @@
   <div class="container left">
     <div class="content">
       <h3>03 Décembre 2020</h3>
-      <p>La majorité des demandes du client ont été réalisé, nous avons décidé d'essayer d'utiliser un Rasberry afin d'y mettre notre serveur RéponsAtout</p>
+      <p>La majorité des demandes du client ont été réalisé, nous avons décidé d'essayer d'utiliser un Raspberry Pi afin d'y mettre notre serveur RéponsAtout</p>
     </div>
   </div>
 </div>
