@@ -140,9 +140,15 @@
   </div>
   <div class="container right">
     <div class="content">
-      <h3>2 Décembre 2020</h3>
+      <h3>02 Décembre 2020</h3>
       <p>Daily meeting avec le client qui est sastifait de notre avancement. Le client peut poser plusieurs questions précisent au serveur et obtenir des réponses.</p>
       <p>La proposition de rajouter une question dynamique (réponse en temps réel), a été accepté mais on ne réalise pas de multiprocesseurs.</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h3>03 Décembre 2020</h3>
+      <p>La majorité des demandes du client ont été réalisé, nous avons décidé d'essayer d'utiliser un Rasperry afin d'y mettre notre serveur RéponsAtout</p>
     </div>
   </div>
 </div>
