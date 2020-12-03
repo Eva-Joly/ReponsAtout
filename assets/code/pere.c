@@ -11,64 +11,135 @@
 #define TAILLE 250
 
 int inter = 0;
+int NBFILS;
 int restart(void);
 void reponse(char buf[TAILLE]);
 void interupt();
+int fork_entree(int n);
 
 
-int main(void)
+int main(int argc, char *arg[])
 {
-    int pid,desc,nb;
+    int desc,nb,i;
     char buf[TAILLE];
-    char *argv[2];
-    int boucle;
-
-    signal(SIGCHLD,interupt);
-    argv[0]="pipe";
-
-    unlink(argv[0]);
-    mkfifo(argv[0],0666);
+    int boucle=1,nbFils,pidpere;
+	char choix,Cpidpere[5];
     
- do
- {   
-   pid=fork();
     
-    if(pid == 0)
-    {
-	argv[1]=NULL;
-//      execv("FILS", argv);
-        execl("/usr/bin/xterm","xterm","-e" ,"./fils",argv[0],argv[1],"set","-o","ingnoreeof",NULL);
-    }
-    else
-    {
-		inter = 0;
-		desc=open(argv[0],O_RDONLY);
-		while(inter == 0)
+    nbFils = atoi(arg[2]);	// On converti de string vers int le nb de fils
+	NBFILS = nbFils;
+    
+	signal(SIGINT,SIG_IGN);  // Protection pour control C
+    signal(SIGCHLD,interupt);	// On cable le signal de retour du fils sur la fct interupt
+
+    unlink(arg[1]);
+    mkfifo(arg[1],0666);	// On s'assure que le pipe n'existe pas puis on le cree
+    
+    // Initialistaion des n processus
+	pid_t pid = 1;	// On le set à 1 pour le premier tour de boucle
+	for(i=0 ; i<nbFils && pid>0 ; i++)
+	{
+		pid = fork();
+		if(pid == 0)
 		{
-
-			nb=read(desc,buf,TAILLE);
-			if(nb != 0)
-			{
-				printf("nb lu : %d\n",nb);
-				buf[nb]='\0';
-			
-				printf("Lecture : %s \n",buf);
-				if(strstr(buf,"Fermeture") == NULL)
-				{
-					reponse(buf);
-				}
-			}
-			
+			execl("/usr/bin/xterm","xterm","-e" ,"./fils",arg[1],"set","-o","ingnoreeof",NULL);
 		}
-		wait(NULL);
-	
-	boucle = restart();
-    }
-}while (boucle == 1);
-close(desc);
-printf("Fermeture du serveur\n");
-return 0;
+
+	}	
+if(pid==0)
+{
+	//rien
 }
+else
+{
+	desc=open(arg[1],O_RDONLY);
+	pidpere = getpid();
+	sprintf(Cpidpere,"%d",pidpere);
+do
+ { 
+	
+	printf("\n\tBienvenue sur notre serveur ReponsAtout !!!");
+	printf("\n\nMode de lecture client............: 1\n");
+	printf("Creer un nouveau client...........: 2\n");
+	printf("Connaitre le nombre de client.....: 3\n");
+	printf("Quitter...........................: 0\n");
+	printf("votre choix: ");
+	rewind(stdin);
+	scanf(" %c",&choix);
+	getchar();
+	switch(choix)
+	{		
+			
+		case '0' :
+				printf("Fermeture du serveur et de tous les clients\n");
+				kill(0,SIGTERM);
+				wait(NULL);
+				return 0;
+				break;
+				
+			case '1' :
+				if(pid == 0)
+				{
+					//On attend de passer dans le père
+				}
+				else
+				{
+					desc=open(arg[1],O_RDONLY);
+					if (NBFILS != 0)
+					{
+						 
+						while(NBFILS>0)
+						{
+							nb=read(desc,buf,TAILLE);
+							buf[nb]='\0';
+							if(nb != 0)
+							{
+								printf("Lecture : %s \n",buf);
+								if(strstr(buf,"Fermeture") == NULL)
+								{
+									reponse(buf);
+								}
+							}
+						}
+					}
+					else
+					{
+						printf("Aucun client de connecter, veuillez en creer un\n");
+					}
+				}
+				close(desc);
+				break;
+				
+			case '2' :
+				printf("Creation d'un nouveau fils\n");
+				
+				if(pid>0)	// Si on est dans le pere on peut creer le fils
+				{
+					pid = fork();
+					if(pid == 0)	// Si on est dans le fils on lance le programme
+					{
+						
+						execl("/usr/bin/xterm","xterm","-e" ,"./fils",arg[1],NULL,"set","-o","ingnoreeof",NULL);
+					}
+				}
+				printf("Le fils a ete cree\n");
+				NBFILS = NBFILS +1;
+				break;
+				
+			case '3' :
+				printf("Il y a actullement %d client(s) de connecter au serveur\n",NBFILS);
+				//execl("/usr/bin/pstree","pstree","-H PID","Cpidpere",NULL);
+				break;
+				
+			default :
+				printf("Mauvaise commande, veuillez saisir une nouvelle commande\n");
+				break;
+	
+		}
+	}while(1);	
+}
+}
+
 
 int restart(void)
 {
@@ -126,6 +197,9 @@ void reponse(char buf[TAILLE])
 
 void interupt()
 {
-	inter = 1;
+	NBFILS = NBFILS -1;
 }
+
+
+	
 
