@@ -7,6 +7,8 @@
 #include<fcntl.h>
 #include<string.h>
 #include<sys/stat.h>
+#include<time.h>
+#include<ctype.h>
 
 #define TAILLE 250
 
@@ -16,15 +18,20 @@ int restart(void);
 void reponse(char buf[TAILLE]);
 void interupt();
 int fork_entree(int n);
+char* Conversion(char* buffer);
 
+
+const char * NomJourSemaine[] = {"Dimanche","Lundi","Mardi","Mercredi","Jeudi","Vendredi","Samedi"}; 
+  
+const char * NomMois[] = {"janvier","fevrier","mars","avril","mai","juin","juillet","aout","septembre","octobre","novembre","decembre"}; 
+                          
 
 int main(int argc, char *arg[])
 {
     int desc,nb,i;
     char buf[TAILLE];
-    int boucle=1,nbFils,pidpere;
-	char choix,Cpidpere[5];
-    
+    int nbFils,pidpere;
+	char choix,Cpidpere[5];    
     
     nbFils = atoi(arg[2]);	// On converti de string vers int le nb de fils
 	NBFILS = nbFils;
@@ -42,7 +49,7 @@ int main(int argc, char *arg[])
 		pid = fork();
 		if(pid == 0)
 		{
-			execl("/usr/bin/xterm","xterm","-e" ,"./fils",arg[1],"set","-o","ingnoreeof",NULL);
+			execl("/usr/bin/xterm","xterm","-e" ,"./fils",arg[1],"-bg","gray","-fg","black","set","-o","ingnoreeof",NULL);
 		}
 
 	}	
@@ -119,7 +126,7 @@ do
 					if(pid == 0)	// Si on est dans le fils on lance le programme
 					{
 						
-						execl("/usr/bin/xterm","xterm","-e" ,"./fils",arg[1],NULL,"set","-o","ingnoreeof",NULL);
+						execl("/usr/bin/xterm","xterm","-e" ,"./fils",arg[1],NULL,"set","-o","ingnoreeof","-bg","gray","-fg","black",NULL);
 					}
 				}
 				printf("Le fils a ete cree\n");
@@ -141,52 +148,47 @@ do
 }
 
 
-int restart(void)
-{
-	char lettre;
-	int boucle = 0;
-	do
-	{
-		printf("Voulez creer un nouveau client? Y ou N\n");
-		scanf(" %c",&lettre);
-	
-		switch(lettre)
-		{
-			case 'y' :
-				return 1;
-				break;
-				
-			case 'Y' :
-				return 1;
-				break;
-				
-			case 'N' :
-				return 0;
-				break;
-				
-			case 'n' :
-				return 0;
-				break;
-				
-			default :
-				printf("Mauvaise comande, veuillez recommencer\n");
-				break;
-		}
-	}while(boucle == 0);
-}
-
 void reponse(char buf[TAILLE])
 {
+	time_t temps; 
+    struct tm * t; 
+    
+    buf = Conversion(buf);
+    printf("%s\n",buf);
 
-	 if(strstr(buf,"temps")!=NULL || strstr(buf,"TEMPS")!=NULL || strstr(buf,"duree")!=NULL || strstr(buf,"DUREE")!=NULL)					// Compare si un mot cle correspond 
+	 if(strstr(buf,"temps")!=NULL || strstr(buf,"duree")!=NULL)					// Compare si un mot cle correspond 
 		{
 			printf("Il vous faudra 30 min pour vous rendre à votre domicile car la circulation est dense.\n");
 
 		}
-		else if(strstr(buf,"meteo")!=NULL || strstr(buf,"METEO")!=NULL)
+		else if(strstr(buf,"meteo")!=NULL)
 		{
 			printf("Aujourd'hui le ciel est dégagé, la temprature maximale est de 24° et la minimale est à 2°\n");
 
+		}
+		else if(strstr(buf,"match")!=NULL)
+		{
+			printf("Le RCT à gagner contre le Racing 23 à 19\n");
+
+		}
+		else if(strstr(buf,"anniversaire")!=NULL)
+		{
+			printf("Votre anniversaire est le 24 décembre!\n");
+
+		}
+		else if(strstr(buf,"rappel")!=NULL)
+		{
+			printf("Voici la liste de vos rappels:\nEtendre le linge\nFaire à manger\nRepasser le linge\nDormir\n");
+
+		}
+		else if(strstr(buf,"heure")!=NULL || strstr(buf,"date")!=NULL)
+		{
+
+			time(&temps);
+			t = localtime(&temps);
+			printf("Nous sommes %s, ", NomJourSemaine[t->tm_wday]); 
+			printf("le %02u %s %04u, ", t->tm_mday, NomMois[t->tm_mon], 1900 + t->tm_year); 
+			printf("et il est %02uh %02umin %02usec.\n", t->tm_hour, t->tm_min, t->tm_sec);
 		}
 		else
 		{
@@ -200,6 +202,15 @@ void interupt()
 	NBFILS = NBFILS -1;
 }
 
+char* Conversion(char* buffer)
+{
 
+	for(int i=0; buffer[i] != '\0' ; i++)
+	{
+		buffer[i] = tolower(buffer[i]);
+	}
+	
+	return buffer;
+}
 	
 

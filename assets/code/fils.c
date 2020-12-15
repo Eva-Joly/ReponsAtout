@@ -9,6 +9,8 @@
 #include <string.h>
 #include <stdio.h>
 
+
+
 int main(int argc, char *arg[])
 {
     int dp;
@@ -16,6 +18,7 @@ int main(int argc, char *arg[])
     char question[250];
     char Cpid[5];
     char fermeture[250] = "Fermeture du client ";
+    char listeMot[250] = "Temps, Duree, Meteo, Match, Anniversaire, Rappel, Heure, Date";
     int status = 0;
     int boucle = 1;
     int nbcarecrit;
@@ -29,6 +32,7 @@ int main(int argc, char *arg[])
 	{
 		printf("\n\tBienvenue sur notre service ReponsAtout !!!");
 		printf("\n\nTaper une question............: 1\n");
+		printf("Liste des mots clés...........: 2\n");
 		printf("Quitter.......................: 0\n");
 		printf("votre choix: ");
 		rewind(stdin);
@@ -70,11 +74,15 @@ int main(int argc, char *arg[])
 				strcat(question,"\t");
 				strcat(question,Cpid);		// On ajoute le pid a fin de la question 
 
-				dp=open(arg[1],O_WRONLY);
+				dp=open(arg[1],O_WRONLY);								// Ouverture du PIPE puis ecriture de la question
 				nbcarecrit = write(dp, question,sizeof(question));
 				
-				sleep(1);
-				close(dp);
+				sleep(1);		// Tempo d'une seconde 
+				close(dp);		// Fermeture du PIPE
+				break;
+				
+			case '2' :
+				printf("Voici la liste des mots clés : \n%s\n",listeMot);		// Affichage de la liste de mot clé
 				break;
 				
 			default :
