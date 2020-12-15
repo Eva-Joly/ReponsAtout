@@ -148,7 +148,21 @@
   <div class="container left">
     <div class="content">
       <h3>03 Décembre 2020</h3>
-      <p>La majorité des demandes du client ont été réalisé, nous avons décidé d'essayer d'utiliser un Raspberry Pi afin d'y mettre notre serveur RéponsAtout</p>
+      <p>La majorité des demandes du client ont été réalisé, nous avons décidé d'essayer d'utiliser un Raspberry Pi afin d'y mettre notre serveur RéponsAtout.</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h3>11 Décembre 2020</h3>
+      <p>Afin de rendre le projet le plus complet possible, nous avons pris l'initiative de rajouter des fonctionnalités à notre projet.</p>
+      <p>Comme le rajout de menus afin que l'expérience consommateur soit des plus agréable. Nous avons rendu RéponsAtout plus "intelligent", en lui donnant des connaisances en plus, afin de mieux vous accompagner dans la vie de tous les jours.</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h3>15 Décembre 2020</h3>
+      <p>Par manque de temps et de connaissances, nous utiliserons pas la carte Raspberry Pi.</p>
+      <p>Le projet RéponsAtout est fini, notre équipe a répondu à toutes les demandes du client dans le temps imparti.</p>
     </div>
   </div>
 </div>
