@@ -173,6 +173,7 @@
 
 * * *
 
+
 *   Comment utiliser RéponsAtout ? Vous trouverez vos réponses <a href="../mode_emploi.pdf" download>ici</a>.
 *   Vous pouvez récupérer notre programme en téléchargent ses deux fichiers : <a href="../code/pere.c" download>1er fichier</a> et <a href="../code/fils.c" download>2ème fichier</a>.
 <p>&nbsp;</p>
